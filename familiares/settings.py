@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'familiares1',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'familiares.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\paula\\Desktop\\Coderhouse\\proyecto_coder\\proyecto_familiares\\familiares\\familiares1\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
